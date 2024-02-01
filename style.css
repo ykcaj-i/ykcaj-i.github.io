@@ -93,7 +93,7 @@ main{
     border-radius: 50%;
 }
 
-#instagramlogo{
+#spotifylogo{
     position: relative;
     width:25px;
     height:25px;
@@ -118,7 +118,7 @@ main{
 }
 
 
-.instagramlogoposition{
+.spotifylogoposition{
     position: absolute;
     left: 1700px;
     bottom: 40px;
@@ -146,19 +146,19 @@ main{
 
 .child{
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     bottom:75px;
 }
 
-.childsecond{
+.childsecond{ /*jacky*/
     position: absolute;
-    left: 1037px;
+    left: 1137px;
     bottom: 60px;
 }
 
-.childthird{
+.childthird{ /*˘◡˘*/
     position: absolute;
-    left: 1043px;
+    left: 1143px;
     bottom: 132px;
 }
 
