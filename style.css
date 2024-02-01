@@ -107,6 +107,14 @@ main{
     width:27px;
     height:27px;
 }
+
+#microsoftlogo{
+    position: relative;
+    width:27px;
+    height:27px;
+}
+
+
 .instagramlogoposition{
     position: absolute;
     left: 1700px;
@@ -120,6 +128,11 @@ main{
 .linkedinlogoposition{
     position: absolute;
     left: 1730px;
+    bottom: 40px;
+}
+.microsoftlogoposition{
+    position: absolute;
+    left: 1745px;
     bottom: 40px;
 }
 
@@ -191,6 +204,8 @@ section{
     color:darkcyan;
 }
 
-
-  
- 
+#grad1 {
+    height: 55px;
+    background-color: red; 
+    background-image: linear-gradient(to right, white, lightcyan, rgb(0, 207, 207), rgb(0, 207, 207), lightcyan,  white);
+  }
