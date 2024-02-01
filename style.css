@@ -56,7 +56,7 @@ header {
 
 #hr1{
     border: dotted 1.5px; 
-    border-color: darkcyan; 
+    border-color: #008b8b; 
     width: 10%;
 }
 
@@ -84,7 +84,7 @@ p{
 
 main{
     text-align: left;
-    color: darkcyan;
+    color: #008b8b;
 }
 
 #image2{
@@ -118,6 +118,12 @@ main{
     height:27px;
 }
 
+#devpostlogo{
+    position: relative;
+    width:30px;
+    height:27px;
+}
+
 
 .spotifylogoposition{
     position: absolute;
@@ -137,6 +143,12 @@ main{
 .microsoftlogoposition{
     position: absolute;
     left: 1745px;
+    bottom: 40px;
+}
+
+.devpostlogoposition{
+    position: absolute;
+    left: 1760px;
     bottom: 40px;
 }
 
