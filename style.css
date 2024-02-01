@@ -96,21 +96,10 @@ main{
     height:25px;
 }
 
-.instagramlogop{
-    position: absolute;
-    left: 1745px;
-    bottom: 40px;
-}
-
 #githublogo{
     position: relative;
     width:25px;
     height:25px;
-}
-.githublogop{
-    position: absolute;
-    left: 1760px;
-    bottom: 40px;
 }
 
 #linkedinlogo{
@@ -118,9 +107,19 @@ main{
     width:27px;
     height:27px;
 }
-.linkedinlogop{
+.instagramlogoposition{
     position: absolute;
-    left: 1775px;
+    left: 1650px;
+    bottom: 40px;
+}
+.githublogoposition{
+    position: absolute;
+    left: 1665px;
+    bottom: 40px;
+}
+.linkedinlogoposition{
+    position: absolute;
+    left: 1680px;
     bottom: 40px;
 }
 
