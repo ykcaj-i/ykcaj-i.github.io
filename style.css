@@ -38,9 +38,9 @@ h1{
 #links{
     display: inline-block;
     background-color: darkcyan;
-    /*
-    background-image: linear-gradient(to right, lightcyan, rgb(0, 207, 207), rgb(0, 207, 207), rgb(0, 207, 207));
-      */
+    
+    background-image: linear-gradient(to right, rgb(0, 116, 116), rgb(0, 131, 131), rgb(0, 150, 150), rgb(0, 153, 153), rgb(0, 182, 182) );
+    
 }
 
 #accountlinks{
@@ -209,5 +209,5 @@ section{
 
 #grad1 {
     height: 55px;
-    background-image: linear-gradient(to right, white, lightcyan, rgb(0, 207, 207), rgb(0, 207, 207), lightcyan,  white);
+    background-image: linear-gradient(to right, white, lightcyan, rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), lightcyan,  white);
   }
