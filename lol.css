@@ -1,0 +1,262 @@
+body{
+    background-color:white; /*rgb(202, 238, 144)*/
+    font-family: monospace;
+    color: darkcyan;
+    
+}
+
+header {
+    text-align: center;
+    color: darkcyan;
+}
+
+button{
+    background-color: transparent;
+    background: none;
+    border: none;
+    color: darkcyan;
+    font-family: monospace;
+    cursor: auto;
+    cursor: pointer;  
+    font-size: 100%;
+
+#toggledarkmode button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+}
+.dark-mode {
+    background-color: black;
+    color: black;
+}
+
+#username{
+    color:white; 
+    font-size: 16px;
+}
+
+
+
+
+
+  
+h1{
+     color: darkcyan;
+     font-family: 'Courier New';
+}
+
+
+#navbar{  
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#navbar a{  
+    background-color: transparent;
+    color:darkcyan;
+    font-size: 120%;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+    position: fixed;
+}
+
+#navbar a:hover{
+    background-color: lightcyan;
+    font-size: 130%;
+    
+
+}
+.righticons{
+    padding-right: 0px;
+    float: right;
+    
+}
+
+#pagelinks{
+    
+}
+
+
+    
+    /*background-image: linear-gradient(to right, yellow, yellow, rgb(0, 150, 150), rgb(0, 153, 153), rgb(0, 182, 182) );*/
+
+/*
+#links a:hover {
+    background-color: blue;
+    color: skyblue;
+  }*/
+
+
+
+
+
+#hr1{
+    border: dotted 1.5px; 
+    border-color: #008b8b; 
+    width: 10%;
+}
+
+#summary{
+}
+
+#image1{
+    width:500px; 
+    height:270px;
+}
+
+
+
+p{  
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'courier new';
+}
+
+main{
+    text-align: left;
+    color: #008b8b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image2{
+    background-size: cover;
+    width: 40%;
+    border: dotted 0px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+#spotifylogo{
+
+    width:25px;
+    height:25px;
+}
+#githublogo{
+
+    width:25px;
+    height:25px;
+}
+#linkedinlogo{
+
+    width:27px;
+    height:27px;
+}
+#microsoftlogo{
+
+    width:27px;
+    height:27px;
+}
+#devpostlogo{
+
+    width:30px;
+    height:27px;
+}
+
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    left: 1000px;
+    bottom:75px;
+}
+
+.childsecond{ /*jacky*/
+    position: absolute;
+    left: 1037px;
+    bottom: 60px;
+}
+
+.childthird{ /*˘◡˘*/
+    position: absolute;
+    left: 1043px;
+    bottom: 132px;
+}
+
+.childforth{ 
+    position: absolute;
+    left: 970px;
+    bottom: -15px;
+}
+
+
+span::before { 
+    content: "˘◡˘"; 
+    animation: animate infinite 2s; 
+    
+} 
+
+@keyframes animate { 
+    /*‎ *//*⠀*/ 
+    0% { 
+        content: "˚◡˚"; 
+    } 
+    10% { 
+        content: "˚◡˚"; 
+    } 
+    20% { 
+        content: "˚◡˚"; 
+    } 
+    30% { 
+        content: "˚◡˚"; 
+    } 
+    40% { 
+        content: "˚◡˚"; 
+    } 
+    50% {
+        content: "˚◡˚"; 
+    } 
+    60% { 
+        content: "˚◡˚"; 
+    } 
+    70% { 
+        content: "˚◡˚"; 
+    } 
+    80% { 
+        content: "˚◡˚"; 
+    } 
+    90% { 
+        content: "˚◡˚"; 
+    } 
+} 
+ 
+section{
+    color:darkcyan;
+}
+
+#grad1 {
+    height: 55px;
+    background-image: linear-gradient(to right, white, lightcyan, rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), lightcyan,  white);
+  }
