@@ -175,6 +175,12 @@ main{
     bottom: 132px;
 }
 
+.childforth{ 
+    position: absolute;
+    left: 970px;
+    bottom: -15px;
+}
+
 
 span::before { 
     content: "˘◡˘"; 
