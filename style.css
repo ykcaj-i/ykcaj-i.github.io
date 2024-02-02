@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
 body{
     background-color:white; /*rgb(202, 238, 144)*/
     font-family: monospace;
@@ -234,5 +240,5 @@ section{
 
 #grad1 {
     height: 55px;
-    background-image: linear-gradient(to right, white, lightcyan, rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), lightcyan,  white);
+    background-image: linear-gradient(to right,  rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), lightcyan,  white);
   }
