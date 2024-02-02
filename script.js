@@ -7,21 +7,6 @@ function myFunction() {
    element1.classList.toggle("dark-mode");
 }
 /*sticky navbar*/
-window.onscroll = function() {
-   myFunction1()
-   };
-   
-   var navbar = document.getElementById("navbar");
-   var sticky = navbar.offsetTop;
-   
-   function myFunction1() {
-     if (window.scrollY >= sticky) {
-       navbar.classList.add("sticky")
-     } else {
-       navbar.classList.remove("sticky");
-     }
-   }
-
 
 
 

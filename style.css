@@ -4,6 +4,12 @@ body{
     color: darkcyan;
     
 }
+
+header {
+    text-align: center;
+    color: darkcyan;
+}
+
 button{
     background-color: transparent;
     background: none;
@@ -13,6 +19,14 @@ button{
     cursor: auto;
     cursor: pointer;  
     font-size: 100%;
+
+#toggledarkmode button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
 
 }
 .dark-mode {
@@ -25,34 +39,61 @@ button{
     font-size: 16px;
 }
 
-nav{
-}
 
-#navbar{   
-}
 
+
+
+  
 h1{
      color: darkcyan;
      font-family: 'Courier New';
 }
 
-#links{
-    display: inline-block;
-    background-color: darkcyan;
+
+#navbar{  
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#navbar a{  
+    background-color: transparent;
+    color:darkcyan;
+    font-size: 120%;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+    position: fixed;
+}
+
+#navbar a:hover{
+    background-color: lightcyan;
+    font-size: 130%;
     
-    background-image: linear-gradient(to right, rgb(0, 116, 116), rgb(0, 131, 131), rgb(0, 150, 150), rgb(0, 153, 153), rgb(0, 182, 182) );
+
+}
+.righticons{
+    padding-right: 0px;
+    float: right;
     
 }
 
-#accountlinks{
-    text-decoration:none;
-    background-color:transparent;
+#pagelinks{
+    
 }
 
-header {
-    text-align: center;
-    color: darkcyan;
-}
+
+    
+    /*background-image: linear-gradient(to right, yellow, yellow, rgb(0, 150, 150), rgb(0, 153, 153), rgb(0, 182, 182) );*/
+
+/*
+#links a:hover {
+    background-color: blue;
+    color: skyblue;
+  }*/
+
+
+
+
 
 #hr1{
     border: dotted 1.5px; 
@@ -68,13 +109,7 @@ header {
     height:270px;
 }
 
-a{  
-    font-size: 105%;
-    text-decoration:none;
-    color:white;
-    background-color: transparent;
-    
-}
+
 
 p{  
     padding-left: 1%;
@@ -87,6 +122,9 @@ main{
     color: #008b8b;
 }
 
+
+
+
 #image2{
     background-size: cover;
     width: 40%;
@@ -94,62 +132,35 @@ main{
     border-radius: 50%;
 }
 
+
+
+
+
+
 #spotifylogo{
-    position: relative;
+
     width:25px;
     height:25px;
 }
-
 #githublogo{
-    position: relative;
+
     width:25px;
     height:25px;
 }
-
 #linkedinlogo{
-    position: relative;
+
     width:27px;
     height:27px;
 }
-
 #microsoftlogo{
-    position: relative;
+
     width:27px;
     height:27px;
 }
-
 #devpostlogo{
-    position: relative;
+
     width:30px;
     height:27px;
-}
-
-
-.spotifylogoposition{
-    position: absolute;
-    left: 1700px;
-    bottom: 40px;
-}
-.githublogoposition{
-    position: absolute;
-    left: 1715px;
-    bottom: 40px;
-}
-.linkedinlogoposition{
-    position: absolute;
-    left: 1730px;
-    bottom: 40px;
-}
-.microsoftlogoposition{
-    position: absolute;
-    left: 1745px;
-    bottom: 40px;
-}
-
-.devpostlogoposition{
-    position: absolute;
-    left: 1760px;
-    bottom: 40px;
 }
 
 
