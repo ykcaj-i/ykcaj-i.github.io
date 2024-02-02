@@ -26,7 +26,7 @@ button{
     cursor: pointer;  
     font-size: 100%;
 
-.toggledarkmode button:hover{
+#toggledarkmode button:hover{
     background-color: black;
     color: white;
 }
