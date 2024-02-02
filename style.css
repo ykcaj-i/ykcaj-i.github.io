@@ -26,11 +26,12 @@ button{
     cursor: pointer;  
     font-size: 100%;
 
-#toggledarkmode button:hover{
-    background-color: black;
-    color: white;
+#togglenight{
+    background-color: transparent;
 }
-
+#togglenight:hover{
+    background-color: black;
+}
 
 
 
