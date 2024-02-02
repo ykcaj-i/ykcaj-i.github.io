@@ -72,7 +72,7 @@ h1{
 }
 
 #navbar a:hover{
-    background-color: rgb(152, 255, 255);
+    background-color: rgb(209, 255, 183);
     font-size: 130%;
     
 
@@ -143,30 +143,58 @@ main{
     width:25px;
     height:25px;
 }
+#spotifylogo:hover{
+
+    width:27px;
+    height:27px;
+}
 #githublogo{
 
     width:25px;
     height:25px;
+}
+#githublogo:hover{
+
+    width:27px;
+    height:27px;
 }
 #linkedinlogo{
 
     width:26px;
     height:26px;
 }
+#linkedinlogo:hover{
+
+    width:28px;
+    height:28px;
+}
 #microsoftlogo{
 
     width:25px;
     height:25px;
+}
+#microsoftlogo:hover{
+
+    width:27px;
+    height:27px;
 }
 #devpostlogo{
 
     width:28px;
     height:25px;
 }
+#devpostlogo:hover{
 
+    width:30px;
+    height:27px;
+}
 #instagramlogo{
     width: 25px;
     height:25px;
+}
+#instagramlogo:hover{
+    width: 27px;
+    height:27px;
 }
 
 
@@ -176,19 +204,19 @@ main{
 
 .child{
     position: absolute;
-    left: 1000px;
+    left: 995px;
     bottom:75px;
 }
 
 .childsecond{ /*jacky*/
     position: absolute;
-    left: 1037px;
+    left: 1032px;
     bottom: 60px;
 }
 
 .childthird{ /*˘◡˘*/
     position: absolute;
-    left: 1043px;
+    left: 1038px;
     bottom: 132px;
 }
 
