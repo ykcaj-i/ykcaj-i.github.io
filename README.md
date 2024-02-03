@@ -1,1 +1,1 @@
-https://www.ykcaj-i.github.io
+https://ykcaj-i.github.io
