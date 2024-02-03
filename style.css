@@ -73,7 +73,7 @@ h1{
 }
 
 #navbar a:hover{
-    background-color: rgb(183, 255, 251);
+    background-color: rgb(192, 255, 250);
     font-size: 130%;
     
 
@@ -133,7 +133,6 @@ main{
     border: dotted 0px;
     border-radius: 50%;
 }
-
 
 
 
@@ -274,5 +273,20 @@ section{
 
 #grad1 {
     height: 55px;
-    background-image: linear-gradient(to right,  rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), lightcyan,  white);
+    background-image: linear-gradient(to right,  rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), rgb(172, 255, 255),  rgb(221, 251, 255));
   }
+
+  #projectlinks{
+    color: #008b8b;
+    text-decoration: none;
+  }
+
+  #projectlinks:hover{
+    background-color: rgb(192, 255, 250);
+    text-decoration: none;
+  }
+
+  #backtotop a:hover{
+    background-color: rgb(192, 255, 250);
+    font-size: 110%;
+}
