@@ -73,7 +73,7 @@ h1{
 }
 
 #navbar a:hover{
-    background-color: rgb(192, 255, 250);
+    background-color: transparent;
     font-size: 130%;
     
 
@@ -328,9 +328,9 @@ section{
   }
   
   #slider label {
-    width: 26%;
-    height: 45%;
-    border-radius: 7px; /*decorations*/
+    width: 479px;
+    height: 303px;
+    border-radius: 8px; /*decorations*/
     cursor: pointer; /*makes the cursor a pointer hand*/
     margin: auto; 
     left: 0; right: 0;
@@ -374,11 +374,11 @@ section{
   }
 
 
-  #slide1 { background-image: url(./imagethirdgradient.png)}
-  #slide2 { background-image: url(./imagethirdgradient.png)}
-  #slide3 { background-image: url(./imagethirdgradient.png);}
-  #slide4 { background-image: url(./imagethirdgradient.png)}
-  #slide5 { background-image: url(./imagethirdgradient.png)}
+  #slide1 { background-image: url(./chasesapphire.png)}
+  #slide2 { background-image: url(./bankofmaerica.png)}
+  #slide3 { background-image: url(./amex.png);}
+  #slide4 { background-image: url(./chasefreedom.png)}
+  #slide5 { background-image: url(./citidoublecash.png)}
 
   /*
   #slide1 { background: rgb(255, 84, 84) }
