@@ -312,7 +312,8 @@ section{
   */
   /*hides the o o o o o*/
   [type=radio] {
-    display: none;
+    color: grey;
+    padding: 10px;
   }
   /*technical*/
   #slider {
