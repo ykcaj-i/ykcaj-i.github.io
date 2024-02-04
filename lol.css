@@ -140,61 +140,61 @@ main{
 
 #spotifylogo{
 
-    width:25px;
-    height:25px;
+    width:27px;
+    height:27px;
 }
 #spotifylogo:hover{
 
-    width:27px;
-    height:27px;
+    width:30px;
+    height:30px;
 }
 #githublogo{
 
-    width:25px;
-    height:25px;
-}
-#githublogo:hover{
-
     width:27px;
     height:27px;
 }
-#linkedinlogo{
+#githublogo:hover{
 
-    width:26px;
-    height:26px;
+    width:30px;
+    height:30px;
 }
-#linkedinlogo:hover{
+#linkedinlogo{
 
     width:28px;
     height:28px;
 }
-#microsoftlogo{
+#linkedinlogo:hover{
 
-    width:25px;
-    height:25px;
+    width:30px;
+    height:30px;
 }
-#microsoftlogo:hover{
+#microsoftlogo{
 
     width:27px;
     height:27px;
 }
-#devpostlogo{
+#microsoftlogo:hover{
 
-    width:28px;
-    height:25px;
+    width:29px;
+    height:29px;
 }
-#devpostlogo:hover{
+#devpostlogo{
 
     width:30px;
     height:27px;
 }
-#instagramlogo{
-    width: 25px;
-    height:25px;
+#devpostlogo:hover{
+
+    width:32px;
+    height:29px;
 }
-#instagramlogo:hover{
+#instagramlogo{
     width: 27px;
     height:27px;
+}
+#instagramlogo:hover{
+    width: 29px;
+    height:29px;
 }
 
 
@@ -379,7 +379,7 @@ section{
   #slide3 { background-image: url(./imagethirdgradient.png);}
   #slide4 { background-image: url(./imagethirdgradient.png)}
   #slide5 { background-image: url(./imagethirdgradient.png)}
-*/
+
   /*
   #slide1 { background: rgb(255, 84, 84) }
   #slide2 { background: rgb(121, 243, 121) }
