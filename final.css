@@ -1,0 +1,388 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+body{
+    background-color:white; /*rgb(202, 238, 144)*/
+    font-family: monospace;
+    color: darkcyan;
+    user-select: none
+}
+
+header {
+    text-align: center;
+    color: darkcyan;
+}
+
+button{
+    background-color: transparent;
+    background: none;
+    border: none;
+    color: darkcyan;
+    font-family: monospace;
+    cursor: auto;
+    cursor: pointer;  
+    font-size: 100%;
+
+#togglenight{
+    background-color: transparent;
+}
+#togglenight:hover{
+    background-color: black;
+}
+
+
+
+}
+.dark-mode {
+    background-color: black;
+    color: black;
+}
+
+#username{
+    color:white; 
+    font-size: 16px;
+}
+
+
+
+
+
+  
+h1{
+     color: darkcyan;
+     font-family: 'Courier New';
+}
+
+
+#navbar{  
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#navbar a{  
+    background-color: transparent;
+    color:darkcyan;
+    font-size: 120%;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+    position: fixed;
+}
+
+#navbar a:hover{
+    background-color: transparent;
+    font-size: 130%;
+    
+
+}
+.righticons{
+    padding-right: 100px;
+    float: right;
+    
+}
+
+    
+    /*background-image: linear-gradient(to right, yellow, yellow, rgb(0, 150, 150), rgb(0, 153, 153), rgb(0, 182, 182) );*/
+
+/*
+#links a:hover {
+    background-color: blue;
+    color: skyblue;
+  }*/
+
+
+
+
+
+#hr1{
+    border: dotted 1.5px; 
+    border-color: #008b8b; 
+    width: 10%;
+}
+
+#summary{
+}
+
+#image1{
+    width:500px; 
+    height:270px;
+}
+
+
+
+p{  
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'courier new';
+}
+
+main{
+    text-align: left;
+    color: #008b8b;
+}
+
+
+
+
+#image2{
+    background-size: cover;
+    width: 40%;
+    border: dotted 0px;
+    border-radius: 50%;
+}
+
+
+
+
+
+#spotifylogo{
+
+    width:27px;
+    height:27px;
+}
+#spotifylogo:hover{
+
+    width:30px;
+    height:30px;
+}
+#githublogo{
+
+    width:27px;
+    height:27px;
+}
+#githublogo:hover{
+
+    width:30px;
+    height:30px;
+}
+#linkedinlogo{
+
+    width:28px;
+    height:28px;
+}
+#linkedinlogo:hover{
+
+    width:30px;
+    height:30px;
+}
+#microsoftlogo{
+
+    width:27px;
+    height:27px;
+}
+#microsoftlogo:hover{
+
+    width:29px;
+    height:29px;
+}
+#devpostlogo{
+
+    width:30px;
+    height:27px;
+}
+#devpostlogo:hover{
+
+    width:32px;
+    height:29px;
+}
+#instagramlogo{
+    width: 27px;
+    height:27px;
+}
+#instagramlogo:hover{
+    width: 29px;
+    height:29px;
+}
+
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    left: 950px;
+    bottom:75px;
+}
+
+.childsecond{ /*jacky*/
+    position: absolute;
+    left: 986px;
+    bottom: 60px;
+}
+
+.childthird{ /*˘◡˘*/
+    position: absolute;
+    left: 994px;
+    bottom: 132px;
+}
+
+.childforth{ 
+    position: absolute;
+    left: 970px;
+    bottom: -15px;
+}
+
+
+span::before { 
+    content: "˘◡˘"; 
+    animation: animate infinite 2s; 
+    
+} 
+
+@keyframes animate { 
+    /*‎ *//*⠀*/ 
+    0% { 
+        content: "˚◡˚"; 
+    } 
+    10% { 
+        content: "˚◡˚"; 
+    } 
+    20% { 
+        content: "˚◡˚"; 
+    } 
+    30% { 
+        content: "˚◡˚"; 
+    } 
+    40% { 
+        content: "˚◡˚"; 
+    } 
+    50% {
+        content: "˚◡˚"; 
+    } 
+    60% { 
+        content: "˚◡˚"; 
+    } 
+    70% { 
+        content: "˚◡˚"; 
+    } 
+    80% { 
+        content: "˚◡˚"; 
+    } 
+    90% { 
+        content: "˚◡˚"; 
+    } 
+} 
+ 
+section{
+    color:darkcyan;
+}
+
+#grad1 {
+    height: 55px;
+    background-image: linear-gradient(to right,  rgb(0, 207, 207), rgb(0, 131, 131), rgb(0, 131, 131), rgb(0, 207, 207), rgb(172, 255, 255),  rgb(221, 251, 255));
+  }
+
+  #projectlinks{
+    color: #008b8b;
+    text-decoration: none;
+  }
+
+  #projectlinks:hover{
+    background-color: rgb(192, 255, 250);
+    text-decoration: none;
+  }
+
+  #backtotop a:hover{
+    background-color: rgb(192, 255, 250);
+    font-size: 110%;
+}
+
+#mapend{
+    color:darkcyan;
+}
+
+#patreonlogo{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*css slider*/
+/*
+* {
+    margin: 0;
+    padding: 0;
+  }
+*/
+/*
+  body {
+    padding: 20px;
+    background: black;
+    user-select: none;
+  }
+  */
+  /*hides the o o o o o*/
+  [type=radio] {
+    display: none;
+  }
+  /*technical*/
+  #slider {
+    height: 35vw;
+    perspective: 2000px;
+    transform-style: preserve-3d;
+  }
+  
+  #slider label {
+    width: 479px;
+    height: 303px;
+    border-radius: 8px; /*decorations*/
+    cursor: pointer; /*makes the cursor a pointer hand*/
+    margin: auto; 
+    left: 0; right: 0;
+    position: absolute; /*centers the slides*/
+    transition: transform 0.5s ease; 
+  }
+  
+  #s1:checked ~ #slide4, #s2:checked ~ #slide5,
+  #s3:checked ~ #slide1, #s4:checked ~ #slide2,
+  #s5:checked ~ #slide3 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(-30%,0,-200px);
+  }
+  
+  #s1:checked ~ #slide5, #s2:checked ~ #slide1,
+  #s3:checked ~ #slide2, #s4:checked ~ #slide3,
+  #s5:checked ~ #slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-15%,0,-100px);
+  }
+  
+  #s1:checked ~ #slide1, #s2:checked ~ #slide2,
+  #s3:checked ~ #slide3, #s4:checked ~ #slide4,
+  #s5:checked ~ #slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    transform: translate3d(0,0,0);
+  }
+  
+  #s1:checked ~ #slide2, #s2:checked ~ #slide3,
+  #s3:checked ~ #slide4, #s4:checked ~ #slide5,
+  #s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(15%,0,-100px);
+  }
+  
+  #s1:checked ~ #slide3, #s2:checked ~ #slide4,
+  #s3:checked ~ #slide5, #s4:checked ~ #slide1,
+  #s5:checked ~ #slide2 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(30%,0,-200px);
+  }
+
+
+  #slide1 { background-image: url(./imagethird.png)}
+  #slide2 { background-image: url(./imagethird.png)}
+  #slide3 { background-image: url(./imagethird.png);}
+  #slide4 { background-image: url(./imagethird.png)}
+  #slide5 { background-image: url(./imagethird.png)}
+
+  /*
+  #slide1 { background: rgb(255, 84, 84) }
+  #slide2 { background: rgb(121, 243, 121) }
+  #slide3 { background: rgb(170, 234, 255)}
+  #slide4 { background: rgb(243, 129, 243) }
+  #slide5 { background: rgb(255, 255, 100) }
+*/
