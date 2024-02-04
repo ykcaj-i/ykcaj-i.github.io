@@ -372,9 +372,18 @@ section{
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     transform: translate3d(30%,0,-200px);
   }
-  
+
+
+  #slide1 { background-image: url(./imagethirdgradient.png)}
+  #slide2 { background-image: url(./imagethirdgradient.png)}
+  #slide3 { background-image: url(./imagethirdgradient.png);}
+  #slide4 { background-image: url(./imagethirdgradient.png)}
+  #slide5 { background-image: url(./imagethirdgradient.png)}
+*/
+  /*
   #slide1 { background: rgb(255, 84, 84) }
   #slide2 { background: rgb(121, 243, 121) }
   #slide3 { background: rgb(170, 234, 255)}
   #slide4 { background: rgb(243, 129, 243) }
   #slide5 { background: rgb(255, 255, 100) }
+*/
