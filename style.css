@@ -323,7 +323,7 @@ section{
   #slider {
     height: 35vw;
     position: relative;
-    perspective: 1000px;
+    perspective: 2000px;
     transform-style: preserve-3d;
   }
   
